@@ -94,7 +94,7 @@ Result: N → M elements
 
 Then the rewritten text, layout description, or code. Put the evidence line last and only if the user is going to have to defend the change.
 
-For a justification, return the two or three safe sentences in the user's register (casual, first person if they asked for their voice), then the citations as a short list.
+For a justification, return the two or three safe sentences in the user's register (casual, first person if they asked for their voice), then the citations as a short list, one line each. Match the length the user asked for: if they asked for three sentences, give three, and keep the sources to a line apiece. A long evidence dump under a short pitch is its own kind of clutter.
 
 ## Judgement calls
 
