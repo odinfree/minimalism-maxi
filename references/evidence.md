@@ -2,10 +2,10 @@
 
 Each entry: what was done, what was found, what you can say, what you cannot. Numbers come from the papers or their institutional press releases; where press reports disagree it is noted.
 
-## 1. Reutskaja, Lindner, Nagel, Andersen, Camerer (2018). "Choice overload reduces neural signatures of choice set value in dorsal striatum and anterior cingulate cortex." Nature Human Behaviour 2, 925–935.
+## 1. Reutskaja, Lindner, Nagel, Andersen, Camerer (2018). "Choice overload reduces neural signatures of choice set value in dorsal striatum and anterior cingulate cortex." Nature Human Behaviour 2(12), 925–935. DOI 10.1038/s41562-018-0440-2. PubMed: https://pubmed.ncbi.nlm.nih.gov/30988434/
 
 - **Design.** 19 participants in an fMRI scanner chose a landscape image to print on a T-shirt or mug from sets of 6, 12 or 24. A control condition had them browse the same sets without choosing.
-- **Found.** Activity in the dorsal striatum and anterior cingulate cortex (ACC) followed an inverted U over set size: highest at 12, lower at both 6 and 24. Participants also rated 12 as "the right amount". In the browsing condition the inverted U disappeared, which the authors read as the signal encoding the net value of the set (benefit of more options minus the cost of choosing).
+- **Found.** Activity in the dorsal striatum and anterior cingulate cortex (ACC) followed an inverted U over set size: highest at 12, lower at both 6 and 24. Participants also rated 12 as "the right amount". Adding a clearly dominant option raised activity across all set sizes. In the browsing condition the inverted U disappeared, which the authors read as the signal encoding the net value of the set (benefit of more options minus the cost of choosing).
 - **Interpretation by the authors.** Past about a dozen options the cost of deciding outweighs the added value, so the value signal falls. Camerer put the practical sweet spot at roughly 8 to 15.
 - **Can say.** "Brain reward and effort signals peak around 12 options and drop off past that." "The brain decides the effort is not worth it."
 - **Cannot say.** "Activates the pain center." The ACC is involved in conflict monitoring, effort and pain affect, but the study measured value signals and they went *down* at 24. No threshold between 12 and 24 was tested. Nobody was observed leaving.
@@ -14,9 +14,9 @@ Each entry: what was done, what was found, what you can say, what you cannot. Nu
 ## 2. Iyengar & Lepper (2000). "When choice is demotivating: Can one desire too much of a good thing?" Journal of Personality and Social Psychology 79(6), 995–1006.
 
 - **Design.** Tasting booth in a grocery store alternated between 6 and 24 jams. Also lab studies with 6 vs 30 chocolates and essay topics.
-- **Found.** 24 jams: about 60% of passers-by stopped, about 3% of those bought. 6 jams: about 40% stopped, about 30% bought. Roughly ten times the conversion from the smaller display.
+- **Found.** 24 jams: about 60% of passers-by stopped (142 of 242), about 3% of those who stopped bought. 6 jams: about 40% stopped (104 of 260), about 30% of those who stopped bought. Roughly ten times the conversion from the smaller display; about 12% versus 2% of all passers-by.
 - **Can say.** "More choice draws attention but kills the decision." "Six sold ten times better than twenty-four."
-- **Caveat.** Replications are mixed; a 2010 meta-analysis (Scheibehenne et al.) found the average effect near zero across studies, with strong effects only under some conditions (no prior preference, hard-to-compare options, time pressure). Use the jam study as the vivid example, not as a universal law.
+- **Caveat.** Replications are mixed. Scheibehenne, Greifeneder & Todd (2010), Journal of Consumer Research 37(3), 409–425, pooled 50 experiments (N = 5,036) and found an average effect near zero, with large variation between studies and no single moderator that reliably predicts when overload appears. Use the jam study as the vivid example, not as a universal law, and expect pushback from anyone who knows the meta-analysis.
 
 ## 3. Hick's law (Hick 1952, Hyman 1953)
 
@@ -44,9 +44,9 @@ Each entry: what was done, what was found, what you can say, what you cannot. Nu
 
 ## 7. First impressions and visual complexity
 
-- **Lindgaard et al. (2006)**, Behaviour & Information Technology: people form a stable judgement of a web page's appeal in about 50 ms.
-- **Reinecke et al. (2013)**, CHI, "Predicting users' first impressions of website aesthetics": visual complexity and colourfulness predict appeal; low-to-medium complexity scores highest, and the effect holds across demographics.
-- **Tuch et al. (2009/2012)**: higher visual complexity of web pages increases physiological arousal and lowers rated pleasantness and performance.
+- **Lindgaard, Fernandes, Dudek & Brown (2006)**, Behaviour & Information Technology 25(2), 115–126, "Attention web designers: You have 50 milliseconds to make a good first impression!": appeal ratings after a 50 ms glimpse agreed with ratings after 500 ms and longer viewing.
+- **Reinecke, Yeh, Miratrix, Mardiko, Zhao, Liu & Gajos (2013)**, CHI '13, 2049–2058, "Predicting users' first impressions of website aesthetics with a quantification of perceived visual complexity and colorfulness": 548 volunteers rated 450 sites; computed visual complexity and colourfulness plus demographics explain about half the variance in appeal after 500 ms, with low-to-medium complexity rated highest.
+- **Tuch, Bargas-Avila, Opwis & Wilhelm (2009)**, International Journal of Human-Computer Studies 67(9), 703–715, "Visual complexity of websites: effects on users' impressions, psychophysiological responses, recognition rate and visual search time": higher visual complexity lowers rated pleasure, raises arousal, and hurts recognition and search time. A 2011 follow-up (IEEE Transactions on Affective Computing) replicated the affective and cardiovascular part with 48 participants and 36 pages.
 - **Can say.** "People have judged your page before they have read a word, and what they are judging is how busy it looks."
 
 ## Adjacent studies people confuse with the above

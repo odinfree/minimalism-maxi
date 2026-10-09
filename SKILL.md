@@ -27,7 +27,7 @@ These are defaults, not laws. Each comes from a different line of research, so t
 | Situation | Limit | Where it comes from |
 |---|---|---|
 | Things to hold in mind at once (nav items, bullet points, steps, arguments) | 3 to 4, hard stop at 7 | Cowan's ~4-chunk working memory; Miller's 7±2 is the ceiling, not the target |
-| Options someone must choose between (plans, menu items, product variants) | 6 to 12. Never 24 | Reutskaja et al. 2018: reward and conflict signals peak around 12 and collapse by 24 |
+| Options someone must choose between (plans, menu items, product variants) | 6 to 12. Never 24 | Reutskaja et al. 2018: value signal peaks around 12 and is lower at 24 |
 | Calls to action on one screen or in one message | 1 | Hick's law: decision time grows with log of the number of choices |
 | Decoration, stock images, flourishes, background fills | 0 unless it carries meaning | Mayer's coherence principle; Kastner: every extra object competes for attention |
 | Time before someone has judged the page | about 50 ms | Lindgaard 2006; visual complexity is the main driver (Reinecke 2013) |

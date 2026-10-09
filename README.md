@@ -31,15 +31,15 @@ cd minimalism-maxi
 ./install.sh --copy   # or copy, if your tool does not follow symlinks
 ```
 
-Manual install for one tool: copy or symlink this folder into the tool's skills directory.
+Manual install for one tool: copy or symlink this folder into the tool's skills directory. The first four rows are verified in daily use; the installer also targets Factory, Continue and Cursor at their documented paths, untested.
 
 | Tool | Directory |
 |---|---|
 | Claude Code | `~/.claude/skills/` |
 | Codex CLI | `~/.codex/skills/` |
 | Kimi Code | `~/.kimi/skills/` |
-| Gemini CLI | `~/.gemini/skills/` |
-| OpenCode | `~/.config/opencode/skills/` |
+| Gemini CLI | `~/.gemini/skills/` (untested) |
+| OpenCode | `~/.config/opencode/skills/` (untested) |
 | Shared (agentskills.io) | `~/.agents/skills/` |
 
 Project-local install: put the folder under `.claude/skills/`, `.codex/skills/` or `.agents/skills/` inside the repo.
