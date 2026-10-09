@@ -30,20 +30,21 @@ These are defaults, not laws. Each comes from a different line of research, so t
 | Options someone must choose between (plans, menu items, product variants) | 6 to 12. Never 24 | Reutskaja et al. 2018: value signal peaks around 12 and is lower at 24 |
 | Calls to action on one screen or in one message | 1 | Hick's law: decision time grows with log of the number of choices |
 | Decoration, stock images, flourishes, background fills | 0 unless it carries meaning | Mayer's coherence principle; Kastner: every extra object competes for attention |
+| Distinct visual groups on one screen or slide, after grouping | 5 to 7 | The skill's own rule, not a study: each group is one chunk the viewer has to hold, so the working-memory row applies to groups. No paper tests raw element counts on a screen; say so if asked |
 | Time before someone has judged the page | about 50 ms | Lindgaard 2006; visual complexity is the main driver (Reinecke 2013) |
 
-Rule of thumb when a count sits in the grey zone: count what the eye lands on, not what the DOM contains. A grid of 20 identical thumbnails reads as one element. Five differently styled buttons read as five problems.
+Two counts, both reported. The raw count (step 1 below) is every distinct thing the eye lands on, and an 8-link nav is 8 there; it is the number that makes people wince. The grouped count (after step 3) is what the table limits apply to: the nav becomes one group, and the group itself is then checked against the first row (8 links in one group is over the 7 ceiling). A grid of 20 identical thumbnails is one group. Five differently styled buttons are five groups, because nothing about them says they belong together.
 
 ## Procedure: cutting something
 
 Work in this order. Each step removes a different kind of excess, and skipping ahead to "make it pretty" leaves the clutter in place with nicer fonts.
 
-1. **Inventory.** List every distinct element a first-time viewer notices: headings, buttons, links, images, labels, badges, colours, fonts, sentences. Count them. Say the number. People consistently underestimate their own clutter by half.
+1. **Inventory.** List every distinct element a first-time viewer notices: headings, buttons, links, images, labels, badges, colours, fonts, sentences. Count them raw, no grouping yet. Say the number. People consistently underestimate their own clutter by half.
 2. **Name the one job.** What is the single thing this screen, slide or message exists to do? If the user cannot say it in one sentence, that is the first finding. Everything that follows serves that job.
 3. **Group.** Merge elements that mean the same thing. Three badges saying "new", "popular", "recommended" are one signal. Four nav items under "Company" are one item.
 4. **Cut.** Delete anything that does not move the one job forward. Default to deletion, not hiding. "Put it behind a More link" is a last resort for things that are needed by some users but not most.
 5. **Rank what remains.** One primary action gets the visual weight. Everything else is secondary and looks secondary.
-6. **Recount.** Compare against the table. If still over, go back to step 3.
+6. **Recount.** Count groups now and compare against the table. Report both numbers in the Result line (raw before, groups after). If still over, go back to step 3.
 7. **Keep the cuts.** Write down what was removed and why, so the next person does not add it back in the next sprint.
 
 For prose and talks the same loop applies with sentences in place of elements: one message per paragraph, one idea per slide, one ask per email. Hand the final text to stop-slop if it needs a voice pass.
@@ -89,7 +90,7 @@ Inventory: N elements (list)
 One job: <sentence>
 Cut: <what goes, one line each, with reason>
 Keep: <what stays, ranked, primary first>
-Result: N → M elements
+Result: N raw elements → M groups (and the per-row check: nav, calls to action, decoration)
 ```
 
 Then the rewritten text, layout description, or code. Put the evidence line last and only if the user is going to have to defend the change.
